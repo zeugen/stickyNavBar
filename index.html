@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MR- sticky NavBar</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <div class="logo">Logo Q</div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="" class="active">Blog</a></li>
+            </ul>
+
+        </nav>
+        <section class="sec1"></section> 
+         <section class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quas exercitationem quam suscipit odit laboriosam repudiandae incidunt tempora minima deleniti, nemo modi, culpa ex. Illo nam maxime quis sint animi? Natus soluta officia exercitationem saepe quas, molestiae quaerat. Magnam non ipsa culpa nemo explicabo omnis vel! Quis odio numquam quaerat quod aliquam odit doloremque veniam commodi quas consequuntur, cupiditate asperiores in laudantium ducimus dolorem autem ratione ipsum minus sit nam aperiam repellat ea praesentium tempora. Ipsa minus quas dolorum modi eum assumenda iusto ipsam nisi, excepturi praesentium harum! Sunt, similique.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore dolorem aut, recusandae quod repellendus blanditiis illo eligendi velit quos cum veritatis consequuntur deserunt, eum corrupti voluptate. Explicabo aspernatur suscipit aliquam, sequi ullam optio delectus. Dolore, in sunt fuga sit hic unde, quo molestiae iste a accusantium reprehenderit culpa eum officia itaque animi placeat voluptates ratione debitis, earum necessitatibus dignissimos? Neque repellendus perspiciatis corporis numquam quas accusamus nihil pariatur laudantium cum veritatis! Est reiciendis totam debitis odit inventore, fugiat quis cumque temporibus quos at impedit ducimus pariatur nostrum facere nam architecto sed nihil ipsum consectetur ex dignissimos. Ullam omnis distinctio at.</p>
+        </section>
+        
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+    $(window).on('scroll', function(){
+        if($(window).scrollTop()){
+            $('nav').addClass('black');
+        }
+        else{
+            $('nav').removeClass('black');
+        }
+
+    });
+    </script>
+</body>
+</html>
